@@ -7,7 +7,11 @@
     "description": "{{description}}",
     "i18n": {
       "bundleName": "sap.fe.cap.travel.i18n.i18n",
-      "supportedLocales": ["en", "de", "fr"],
+      "supportedLocales": [
+        "en",
+        "de",
+        "fr"
+      ],
       "fallbackLocale": "en"
     },
     "applicationVersion": {
@@ -15,10 +19,10 @@
     },
     "dataSources": {
       "mainService": {
-        "uri": "processor/",
+        "uri": "odata/v2/processor/",
         "type": "OData",
         "settings": {
-          "odataVersion": "4.0"
+          "odataVersion": "2.0"
         }
       }
     },
@@ -78,7 +82,11 @@
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
           "bundleName": "sap.fe.cap.travel.i18n.i18n",
-          "supportedLocales": ["en", "de", "fr"],
+          "supportedLocales": [
+            "en",
+            "de",
+            "fr"
+          ],
           "fallbackLocale": "en"
         }
       },

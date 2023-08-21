@@ -27,6 +27,6 @@ server:
       mountPath: /processor
       afterMiddleware: compression
       configuration:
-        baseUri: http://localhost:4004/processor
+        baseUri: http://localhost:4004/odata/v2/processor
         username: admin # dummy credentials for local testing
         password: admin # dummy credentials for local testing
